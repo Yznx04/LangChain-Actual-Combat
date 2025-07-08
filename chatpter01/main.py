@@ -9,6 +9,3 @@ response = client.completions.create(
     prompt="请给我的花店起个名字"
 )
 print(response.choices[0].text.strip())
-
-
-from dotenv import load_dotenv
